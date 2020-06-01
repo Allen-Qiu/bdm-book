@@ -36,4 +36,4 @@ for (i in 0:(folds-1)){
     
     idx.start<-idx.end+1
 }
-print(paste("CART and C50:",acc.cart/10, acc.c50/10))
+print(paste("CART and C50:",acc.cart/folds, acc.c50/folds))
