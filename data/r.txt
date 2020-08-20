@@ -1,0 +1,6 @@
+name.last,name.first,team,position,salary
+"Manning","Peyton","Colts","QB",18700000
+"Brady","Tom","Patriots","QB",14626720
+"Pepper","Julius","Panthers","DE",14137500
+"Palmer","Carson","Bengals","QB",13980000
+"Manning","Eli","Giants","QB",12916666
