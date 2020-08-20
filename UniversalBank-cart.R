@@ -18,7 +18,7 @@ test.df <- bank.df[-train.index, ]
 
 # 建立分类模型
 default.ct <- rpart(Personal.Loan ~ ., data = train.df, method = "class")
-
+summary(default.ct)
 # 分析结果
 print(length(default.ct$frame$var[default.ct$frame$var == "<leaf>"]))
 default.ct.pred.train <- predict(default.ct,train.df,type = "class")

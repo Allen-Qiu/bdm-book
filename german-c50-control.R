@@ -19,7 +19,7 @@ for(i in c(1:k)){
     idx.train<-setdiff(idx,idx.test)
     test<-df[idx.test,]
     train<-df[idx.train,]
-    model<-C5.0(V21~.,data=train)
+    model<-C5.0(y=train$V21,x=train[,1:20],data=train,control = C5.0Control(winnow = T,noGlobalPruning = F,fuzzyThreshold = F))
     res<-predict(model, newdata=test)
     val<-length(which(res==test$V21))/length(res)
     print(val)
