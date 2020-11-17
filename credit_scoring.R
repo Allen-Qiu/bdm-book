@@ -17,7 +17,7 @@ for(cname in names){
     p<-length(which(is.na(df[,cname])))/size
     print(paste(cname,":",p))
     
-    if(class(df[,cname])=='character'){
+    if(class(df[,cname])=='factor'){
         print(cname)
         print(table(df[,cname]))
     }
