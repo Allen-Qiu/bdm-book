@@ -5,7 +5,7 @@ lib<-"c:\\rlibrary"
 library(e1071)
 library(pROC)
 
-df<-read.csv('data/hmeq.csv')
+df<-read.csv('data/hmeq.csv', stringsAsFactors=T)
 
 # exploring dataset
 
