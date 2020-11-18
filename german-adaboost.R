@@ -4,7 +4,7 @@ lib<-"c:\\rlibrary"
 library(rpart)
 library(adabag)
 
-gdata<-read.table('data/german.data')
+gdata<-read.table('data/german.data', stringsAsFactors=T)
 gdata$V21<- as.factor(gdata$V21)
 acc.cart <- 0
 acc.ada  <- 0
