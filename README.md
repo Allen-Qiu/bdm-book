@@ -1,5 +1,5 @@
 # bdm-book
-1. 《商业数据挖掘》一书中涉及到的源码和数据集。该书网上已售。京东：https://item.jd.com/10022778213927.html 当当：http://product.dangdang.com/1743508956.html
+1. 《商业数据挖掘》一书中涉及到的源码和数据集。该书网上已售。京东：https://search.jd.com/Search?keyword=%E5%95%86%E4%B8%9A%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98%20%E9%82%B1%E6%B1%9F%E6%B6%9B&enc=utf-8&pvid=afab54ececbc4b98b392799a6ba3ff31 当当：http://product.dangdang.com/1743508956.html
 
 2. 本书有一些错误需要修订，参看文件“错误勘正.docx”
 
