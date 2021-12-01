@@ -13,6 +13,7 @@ data.all$Frozen <- data.all$Frozen/max(data.all$Frozen)
 data.all$Detergents_Paper <-data.all$Detergents_Paper/max(data.all$Detergents_Paper)
 data.all$Delicassen <-data.all$Delicassen/max(data.all$Delicassen)
 
+# 考察k值
 cost<-c()
 for(k in c(1:12)){
     r<-kproto(data.all, k, lambda = 0.5, iter.max = 100, nstart = 5, verbose = T)
